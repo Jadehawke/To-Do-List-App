@@ -1,0 +1,28 @@
+
+<a ui-sref="allLists" class="tenPixelMargin">Back to Lists</a>
+
+<h2 id="listHeader">{{ $ctrl.list.listName }}</h2>
+
+<form ng-submit="$ctrl.addNewListItem()">
+    <div id="addListItem">
+        <input type='text' ng-model='$ctrl.inputText'/>
+        <button>Add to List</button>
+
+    </div>
+</form>
+
+<button id="checkBox" ng-click="$ctrl.clearChecked()"> Clear Checked </button>
+
+<div id="listItems">
+
+    <div ng-repeat="item in $ctrl.list.items">
+
+
+        <input type="checkbox" ng-model="item.completed"/>
+
+        <span> {{ item.name }} </span>
+
+    </div>
+
+
+</div>

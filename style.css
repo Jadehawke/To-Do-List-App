@@ -1,0 +1,59 @@
+
+#container{
+    background-color: #DCDCDC;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding-bottom: 1px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#toDoHeader{
+    background-color: #D3D3D3;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#enterNewList{
+    padding: 10px;
+}
+
+#currentLists{
+    margin: 10px;
+    background-color: #FFFFFF;
+    border: 2px solid #D3D3D3;
+    padding: 10px;
+}
+
+#listButton{
+    text-decoration: none;
+}
+
+#listHeader{
+    padding: 10px;
+    text-decoration: underline;
+}
+#addListItem{
+    padding: 10px;
+}
+
+#checkBox{
+    margin: 10px;
+}
+
+#listItems{
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 2px solid #D3D3D3;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.tenPixelMargin{
+    margin: 10px;
+}

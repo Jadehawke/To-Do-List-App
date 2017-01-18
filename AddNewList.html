@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<form>
+    <div id="enterNewList" ng-submit="$ctrl.NewListName">
+        <input type="text-area" ng-model="$ctrl.NewListName"/>
+        <button ng-click="$ctrl.addNewListButton()">Create New List</button>
+    </div>
+</form>
+
+<div id="currentLists">
+    <h3>Current Lists :</h3>
+    <div ng-repeat="list in $ctrl.currentLists">
+        <a ui-sref="viewList({ index: $index })" class="myButton"> {{ list.listName }} </a>
+    </div>
+
+</div>
